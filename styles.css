@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1  {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 40px;
+    display: inline;
+}
+h1b  {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 40px;
+}
+h2  {
+    text-align: center;
+    color: rgb(180, 25, 25);
+    font-family: 'Jura';
+    font-size: 18px;
+}
+
+p   {
+    text-align: center;
+    font-family: 'Jura';
+    font-size: 14px; 
+}
+
+a  {
+    text-align: center;
+    font-family: 'Jura';
+    font-size: 14px;
+    color: rgb(180, 25, 25);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:visited {
+    text-align: center;
+    font-family: 'Jura';
+    font-size: 14px;
+    color: rgb(180, 25, 25);
+}
+
+a:active {
+    text-align: center;
+    font-family: 'Jura';
+    font-size: 14px;
+}
+
+a:hover {
+    text-align: center;
+    font-family: 'Jura';
+    font-size: 14px;
+    color:rebeccapurple;
+}
+
+table  {
+    align-content: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+img  {
+    align-items: center;
+}
+.portrait {
+    position: relative;
+    max-width: 300px;
+    margin: 0.6em;
+   
+}
+
+.portrait .imgCirculo{
+    position: absolute;
+    width: 301px;
+    height:301px;
+    top: 0.6em;
+    bottom: 0.6em;
+    left: 0.65em;
+    right: 0.6em;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+.spinner {
+    align-content: center;
+    display: block;
+    width: 300px;
+    height:300px;
+    border-radius: 200%;
+    border: 0.6em;
+    border-width: 10px;
+    border-style: solid;
+    border-right-color: rebeccapurple;
+    border-left-color: rgb(180, 25, 25);
+    border-top-color: rgb(180, 25, 25);
+    border-bottom-color:rebeccapurple ;
+ }
+
+.spinner:hover {
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: .8s;
+    animation-name: spinner-loading
+ }
+@keyframes spinner-loading{
+  0% {
+      transform: rotate(0deg)
+  } to {
+      transform: rotate(1turn)
+  }
+}
+
+.iconosRedes {
+    align-content: center; 
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px;
+    
+}
+
+.iconosRedes img {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    filter: grayscale(100%);
+
+}
+
+.iconosRedes img:hover {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    filter: grayscale(0%);
+}
+
+.sencillo {
+    display: inline;
+    
+ 
+}
+
+.buttons {
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Jura';
+    font-size: 14px;
+    font-weight: bolder;
+    border-color: rgb(180, 25, 25);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: rgba(226, 171, 171, 0.888);
+}
