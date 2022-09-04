@@ -86,6 +86,7 @@ img  {
 
 }
 
+
 .spinner {
     align-content: center;
     display: block;
@@ -100,13 +101,14 @@ img  {
     border-top-color: rgb(180, 25, 25);
     border-bottom-color:rebeccapurple ;
  }
-
-.spinner:hover {
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+ 
+ .portrait:hover .spinner{
+	animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
     animation-duration: .8s;
     animation-name: spinner-loading
- }
+}
+
 @keyframes spinner-loading{
   0% {
       transform: rotate(0deg)
